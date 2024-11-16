@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+<h1>Event Feedback Survey</h1>
+<LABel for="Event Name:">Event Name:</LABel>
+<br>
+<input type="text" name="Event Name:" id="Event Name:">
+<br>
+<LABel for="Your Name:">Your Name:</LABel>
+<br>
+<input type="text" name="Your Name:" id="Your Name:">
+<br><br>
+<LABel for="rate">Overall Rating:</LABel>
+        <select name="rate" id="rate">
+            <option value="1">Excellent</option>
+            <option value="2">Good</option>
+            <option value="3">Average</option>
+            <option value="4">Poor</option>
+            <option value="5">Very Poor</option>
+        </select>
+<br>
+<p>Would you recommend this event to others?</p>
+<input type="radio" id="Yes" name="recommend" value="Yes">
+<label for="Yes">Yes</label>
+<br>
+<input type="radio" id="No" name="recommend" value="No">
+<label for="No">No</label>
+<br>
+<p>Additional Comments:</p>
+<textarea name="Comments" id="Comments"></textarea>
+<br><br>
+<button type="submit">Submit </button>
+<hr>
+<h1>Employee Satisfaction Survey</h1>
+<LABel for="Employee Name">Employee Name</LABel>
+<br>
+<input type="text" name="Employee Name" id="Employee Name">
+<br>
+<LABel for="Department:">Department:</LABel>
+<br>
+<input type="text" name="Department:" id="Department:">
+<br>
+<p>How satisfied are you with your job?</p>
+<input type="radio" id="Very Satisfied" name="job" value="Very Satisfied">
+<label for="Very Satisfied">Very Satisfied</label>
+<br>
+<input type="radio" id="Satisfied" name="job" value="Satisfied">
+<label for="Satisfied">Satisfied</label>
+<br>
+<input type="radio" id="Neutral" name="job" value="Neutral">
+<label for="Neutral">Neutral</label>
+<br>
+<input type="radio" id="Dissatisfied" name="job" value="Dissatisfied">
+<label for="Dissatisfied">Dissatisfied</label>
+<br>
+<input type="radio" id="Very Dissatisfied" name="job" value="Very Dissatisfied">
+<label for="Very Dissatisfied">Very Dissatisfied</label>
+<br><br>
+<LABel for="rate">How would you rate the work environment?</LABel>
+        <select name="rate" id="rate">
+            <option value="1">Excellent</option>
+            <option value="2">Good</option>
+            <option value="3">Average</option>
+            <option value="4">Poor</option>
+            <option value="5">Very Poor</option>
+        </select>
+<br><br>
+<p>Suggestion for Improvement</p>
+<textarea name="Suggestion" id="Suggestion"></textarea>
+<br><br>
+<button type="submit">Submit</button>
+</body>
+</html>
